@@ -1,0 +1,49 @@
+<!--   Using a Simple HTTP Server with Node.js
+  1)Install http-server globally: Open your terminal and run:
+
+npm install -g http-server
+
+2) Navigate to your project directory: Use cd to navigate to the folder where your index.html is located.  cd "C:\Users\User\Desktop\projects\software engine\calculator\index.js"  (got it from file explorer)
+3) Run the HTTP server: Run the following command:
+
+http-server
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<title>Calc-u-l8ter</title>
+<link rel="Stylesheet" href="style.css"> <!-- what is rel, href is the refernce-->
+
+</head>
+
+<body>
+    </div>
+    <div id="Calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')"class="operator-btn">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')"class="operator-btn">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')"class="operator-btn">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')"class="operator-btn">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()"class="operator-btn">C</button>
+        </div>
+    </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
